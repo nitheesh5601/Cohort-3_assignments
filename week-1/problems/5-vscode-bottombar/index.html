@@ -9,37 +9,25 @@
         }
         .container {
             background-color: black;
-            width: 1200px;
+            max-width: 1200px;
             margin: 0 auto;
             color: white;
-        }
-
-        .languagePanel {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            padding-inline: 2.5rem
-        }
-
-        .languagePanel img {
-            height: 40px;
-            width: auto;
-        }
-
-        .container {
             display: grid;
             grid-template-columns: 1fr 2fr;
             column-gap: 2rem;
         }
-
-        .flex {
-            display: flex;
+        .languagePanel{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-inline: 2.5rem;
         }
-
-        .verticalCenter {
+        .languagePanel img{
+            max-height: 40px;
+            width: 0px auto;
+        }
+        .flex{
             display: flex;
-            justify-content: center;
             align-items: center;
-            height: 100%;
         }
         
     </style>
